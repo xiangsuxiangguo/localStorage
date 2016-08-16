@@ -1,0 +1,35 @@
+xcar_localStorage使用方法
+
+xcar_localStorage.setItem -------设置本地存储数据
+	
+	type	function
+	
+	arguments:
+ 
+		n : string,要设置的数据名称  必填参数
+		d : string,要设置的数据内容  必填参数
+		t : nummber,设置数据过期时间，以秒作为单位
+		datatype : string,ajax script 其他 选填参数
+		dataname : function,回调函数
+
+xcar_localStorage.resetItem --------重置本地存储数据
+
+	type function
+	
+	arguments:
+ 
+		n : string,要设置的数据名称  必填参数
+		d : string,要设置的数据内容  必填参数
+		t : nummber,设置数据过期时间，以秒作为单位
+		datatype : string,ajax script 其他 选填参数
+		dataname : function,回调函数
+
+xcar_localStorage.getItem --------获取本地存储数据
+
+	type function
+
+	arguments:
+
+		n:string,要获取的数据名字
+		type:obj/str 
+
